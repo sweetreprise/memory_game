@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(234, 63%, 34%);
+}
+
+h1 {
+    text-align: center;
+    font-family: Otomanopee One;
+    color: hsl(234, 78%, 86%);
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    background-color: hsl(234, 18%, 56%);
+    margin: 3px;
+}
+
+.card:hover {
+    box-shadow: inset 0 0 0 1.5px white;
+}
+
+.pink {
+    background-color: RGB(250, 187, 249);
+}
+
+.blue {
+    background-color: RGB(35, 113, 222);
+}
+
+.green {
+    background-color: RGB(99, 191, 94);
+}
+
+.orange {
+    background-color: RGB(184, 92, 17);
+}
+
+.lilac {
+    background-color: RGB(200, 157, 237);
+}
+
+.yellow {
+    background-color: RGB(240, 194, 67);
+}
+
+.lightblue {
+    background-color: RGB(149, 221, 245);
+}
+
+.grey {
+    background-color: RGB(186, 191, 194);
+}
+
+
+#footer {
+    width:fit-content;
+    margin: auto;
+}
+
+#scoreboard, button {
+    font-family: Otomanopee One;
+    color: hsl(234, 78%, 86%);
+    margin-bottom: 10px;
+}
+
+#scoreboard {
+    display: inline-block;
+    margin-right: 100px;
+}
+
+button {
+    background-color: hsl(234, 63%, 34%);
+}
+
+button:hover {
+    background-color: hsl(234, 78%, 86%);
+    color: hsl(234, 63%, 34%);
+}
+
+.flipped {
+    pointer-events: none;
+}
+
+[data-type="hidden"] {
+    background-color: hsl(234, 18%, 56%);
+}
